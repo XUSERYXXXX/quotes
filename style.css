@@ -1,0 +1,45 @@
+html {
+  background-color: black;
+}
+h1 {
+  color: white;
+  margin-left: 30%;
+  font-family: baskerville;
+}
+p {
+  color: white;
+  text-align: center;
+}
+div {
+  height: 200px;
+  width: 300px;
+}
+image {
+  width: 100%;
+}
+.image {
+  border: 5px solid white;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+.quotes {
+  margin-left: 40%;
+}
+@media (min-width: 360px) and (max-width: 500px) {
+  .image {
+    position: relative;
+    margin-left: 0%;
+    display: block;
+  }
+
+  .quotes {
+    position: relative;
+    display: block;
+    margin-left: 0%;
+    top: 80%;
+    left: 10px;
+  }
+  p {
+    font-size: 130%;
+  }
+}
